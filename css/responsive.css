@@ -1,0 +1,12 @@
+@media (max-width: 850px) {
+  .container {
+    width: 70%;
+    margin: 0;
+  }
+
+  
+  header .container {
+    display: block;
+  }
+
+}

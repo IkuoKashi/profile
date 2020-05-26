@@ -1,0 +1,221 @@
+body{
+    font-family: Georgia, 游明朝, YuMincho, "Hiragino Mincho ProN", Meiryo, serif;
+}
+
+li{
+    list-style: none;
+}
+
+.container{
+    margin: 0 auto;
+    width: 90%;
+    max-width: 1000px;
+    
+}
+
+
+
+header .container{
+    height: 100px;
+    padding
+    border-bottom:1px solid #dcdcdc;
+    padding-bottom: 30px;
+    position: relative;
+    display: flex;
+}
+
+.fa-search {
+    padding-left: 5px;
+    padding-top: 3px;
+    color: gray;
+    position: relative;
+    bottom: 0;
+    right: 0;
+    margin-top: 20px;
+}
+
+.header-list ul{
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.header-list li{   
+    padding-right: 40px;
+}
+
+.header-list li:hover{
+  color: gray;
+}
+
+
+
+.title{
+    width: 20%;
+    padding: ;
+}
+
+.header-list{
+    width: 70%;
+    display: flex;
+   position: relative;
+}
+
+
+
+.main{
+    padding-bottom: 20px;
+}
+
+.main img{
+width: 100%;
+padding-bottom: 40px;
+}
+
+.main p{
+    font-size: 25px;
+    padding-bottom: 50px;
+}
+
+.blog-wrapper .container{
+    border-bottom: 1px solid #dcdcdc ;
+}
+
+.blog{
+    height: 130px;
+    display: flex;
+    vertical-align: top;
+    padding-bottom: 30px;
+}
+
+.blog h3{
+    margin: 0;
+    font-weight:800;
+    font-size: 20px;
+}
+
+
+.blog .date{
+    width: 20%;
+    padding-right: 40px;
+    padding-top: 10px;
+}
+
+.blog .contents{
+ width: 80%;
+ vertical-align: top;
+
+}
+
+.numbers{
+    text-align: center;
+    padding-bottom: 100px;
+}
+
+.number-list li{
+    display: inline-block;
+    padding: 10px 20px;
+    background-color:hsl(0, 0%, 96%) ;
+    border: 1px solid #dcdc ;
+    margin-right: 5px;
+    justify-content: center;
+}
+
+.number-list li:hover{
+    background-color: gray;
+}
+
+.fa-angle-double-right{
+    padding-left: 5px;
+}
+
+.last-wrapper{
+    padding-top: 30px;
+    border-bottom: ;
+}
+
+.last-wrapper .container{
+    display: flex;
+    border-bottom: 1px solid #dcdcdc ;
+}
+
+.introduction{
+    width: 30%;
+}
+
+.introduction img{
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    padding-right: 10px;
+}
+
+.introduction .name{
+    padding-left: 5px;
+    font-size: 13px;
+    padding-top: 15px;
+}
+
+.SNS{
+    font-size: 20px;
+    text-align: center;
+    color:#c0c0c0 ;
+}
+
+.SNS .fab{
+ padding-right: 10px;
+}
+
+.introduction .upper{
+    display: flex;
+    vertical-align: middle;
+}
+
+.last-part{
+    width:calc((70% - 40px)/3) ;
+    padding-left: 30px;
+    
+}
+
+.last-part h4{
+    margin-bottom: 0;
+border-bottom: 1px solid #dcdcdc ;
+font-weight: normal;
+}
+
+
+.search{
+    display: inline-block;
+    margin-top: 50px;
+    padding: 5px;
+    font-size: 15px;
+}
+
+footer{
+    vertical-align: center;
+}
+
+footer .container{
+    margin-top: 70px;
+    text-align: center;
+}
+
+footer .left-part{
+    float: left;
+    display: flex;
+    height: 200px;
+}
+
+footer .left-part .fab{
+  margin-right: 20px;
+  font-size: 30px;
+  color: #dcdcdc;
+}
+
+.site-credit {
+
+    padding-right: 20px;
+}
